@@ -1,6 +1,7 @@
 package conditionals
 
-open class Pet {
+open class Pet() {
+    protected val field: String = ""
 }
 
 open class Cat : Pet() {
